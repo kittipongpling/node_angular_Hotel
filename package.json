@@ -1,0 +1,25 @@
+{
+  "name": "bringup_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cluster": "^0.7.7",
+    "cors": "^2.8.4",
+    "expess": "^0.0.1-security",
+    "express": "^4.16.4",
+    "md5": "^2.2.1",
+    "mssql": "^4.2.1",
+    "mysql": "^2.17.1",
+    "node": "^10.12.0",
+    "nodemon": "^1.19.2",
+    "request": "^2.88.0"
+  }
+}
